@@ -1,0 +1,94 @@
+/*Page Style*/
+html, body{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+}
+
+.full-height{
+  width: 100%;
+  height: 100%;
+}
+
+:focus{
+  outline: none;
+}
+
+/*Login Page*/
+.loginheader{
+  background: rgb(2, 140, 220);
+  height:30px;
+  color: white;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.logincontent{
+  background: url('backimage.jpeg');
+  height: calc(100% - 60px);
+  background-size: 100% 100%;
+}
+
+.loginfooter{
+  background: rgb(2, 140, 220);
+  height: 30px;
+  color: white;
+  line-height: 30px;
+  font-size: 7pt;
+  text-align: center;
+}
+
+.popup{
+  width:100%;
+  height: 100%;
+  background: rgb(0,0,0, 0.50);
+  display: none;
+}
+
+.popupwindow{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.loginstyle1{
+  height: 30px;
+  line-height: 30px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.loginstyle2{
+  position: relative;
+  height: 400px;
+  padding: 10px;
+  background: whitesmoke;
+}
+
+.txtbox{
+  width: 98%;
+  height: 30px;
+  font-size: 10pt;
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+
+.btn{
+  width: 100%;
+  height: 35px;
+  background: rgb(2, 122, 220);
+  color: white;
+  border: 1px solid silver;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.linklabel{
+  color: rgb(30, 144, 255);
+  cursor: pointer;
+}

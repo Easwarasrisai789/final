@@ -1,0 +1,90 @@
+/* bookflight.css */
+
+/* Style for the page title */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Style for the form container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the select elements */
+select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Style for the submit button */
+button[type="submit"],
+button[type="button"] {
+  padding: 1rem 2rem;
+  background-color: #4c9daf;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #4562a0;
+}
+
+/* Style for the flights list container */
+.flights-container {
+  margin-top: 2rem;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+}
+
+/* Style for the flights list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Style for the individual flight item */
+li::before {
+  content: "▸"; /* Unicode character for arrow */
+  margin-right: 0.5rem;
+  color: #4c90af;
+}
+
+/* Style for the booking confirmed box */
+.booking-confirmed-box {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #4c63af;
+  border-radius: 5px;
+  background-color: #80e6fa;
+}
+
+
+/* Wrapper for the booking confirmed box */
+.booking-confirmed-wrapper {
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto;
+}
